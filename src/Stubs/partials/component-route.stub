@@ -1,0 +1,1 @@
+    {name: 'ComponentRoute', path: '/ComponentPath', component: ComponentName}

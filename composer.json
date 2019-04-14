@@ -1,0 +1,23 @@
+{
+    "name": "bgaze/laravel-crud-vue",
+    "description": "A Vue.js theme for bgaze/laravel-crud",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bgaze",
+            "email": "benjamin@bgaze.fr"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bgaze\\Crud\\Themes\\Vue\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bgaze\\Crud\\Themes\\Vue\\": "src"
+        }
+    }
+}
